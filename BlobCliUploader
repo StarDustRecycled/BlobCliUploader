@@ -1,0 +1,9 @@
+#! usr/bin/bash
+
+# A bash script that will let users upload files to azure using the azure cli
+
+# setup() {
+#     # Install azure cli
+#     curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+# }
+
