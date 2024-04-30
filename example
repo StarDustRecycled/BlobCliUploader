@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Get trying out how getopts works
 OPTSARG=":a:b:"
 
 while getopts "${OPTSARG}" opts; do
