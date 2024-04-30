@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+OPTSARG=":a:b:"
+
+while getopts "${OPTSARG}" opts; do
+    case $opts in
+        a)
+          echo "${OPTARG} has been entered"
+          ;;
+        b)
+          echo "${OPTARG} has been
+           entered"
+          ;;
+        ?)
+          echo "Invalid ${OPTARG}."
+          exit 1
+          ;;
+    esac
+done
+          
+
+
